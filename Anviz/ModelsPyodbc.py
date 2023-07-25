@@ -28,6 +28,7 @@ def last_attendance(id_empleado: int, dia: datetime, entry_time: datetime.time) 
     Función encargada de extraer el registro de la última entrada
     para un usuario en específico.
 
+    :param entry_time: entrada del empleado.
     :param id_empleado: Id del usuario.
     :param dia: Fecha de trabajo en formato 'YYYY-MM-DD'.
     :return: Una tuple que contiene la información del último registro de asistencia correspondiente,
